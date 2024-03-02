@@ -10,5 +10,9 @@ public class Gravitacija {
 		return (C * M) / Math.pow(r + visina, 2.0);
 		
 	}
-}
 
+	public static void izpis (double visina){
+		System.out.printf("Gravitacijski pispsek na %.2f km nadmorske visine je %.2f m/s\n", visina, izracunGravitacije(visina * 1000));
+	
+	}
+}
