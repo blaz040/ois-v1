@@ -1,5 +1,5 @@
 public class Gravitacija {
 	public static void main(String[] agrgs){
-			System.out.println("OIS, kinda mid");
+			System.out.println("OIS, je zakon!");
 	}
 }
