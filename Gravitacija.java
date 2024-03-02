@@ -4,8 +4,11 @@ public class Gravitacija {
 	}
     
     //B
-    private double izracunaj(int visina)
-    {
-        return ((Math.pow(6.674, -11) * Math.pow(5.972, 24)) / Math.pow(Math.pow(6.371, 6) + visina, 2));
-    }
+ 	public static double izracunGravitacije(double visina){
+		double C = 6.674e-11;
+		double M = 5.972e24;
+		double r = 6.371e6;
+		return (C * M) / Math.pow(r + visina, 2.0);
+		
+	}
 }
